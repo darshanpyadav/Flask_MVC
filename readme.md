@@ -3,7 +3,7 @@ This has MVC boilterplate for Flask.
 
 Structure
 >tree -I "venv|*.pyc|__pycache__"
-
+```
 .
 ├── app
 │   ├── __init__.py
@@ -43,6 +43,7 @@ Structure
     ├── __init__.py
     ├── test_back_end.py
     └── test_front_end.py
+```
 
 ## Guidelines
 Install a venv with Python version preferably > 3.5 (https://medium.freecodecamp.org/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f) 
