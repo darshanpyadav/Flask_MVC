@@ -1,0 +1,6 @@
+Faker #Faker is a Python package that generates fake data for tests
+Flask # Flask app
+Flask-Mail # mail functionality
+Flask-Testing # unit testing utilities for Flask.
+requests
+Werkzeug #CGI  -WSGI library
