@@ -1,42 +1,31 @@
-# python-flask-getting-started
-This code base will have getting started with structure for Python Flask application for API development, along with database connections
+# Python Flask
+This has MVC boilterplate for Flask.
 
-## Prerequisite
-Make sure you have installed python :) 
-To check python version,  
-> python -V  
+## Guidelines
+Install a venv with Python version preferably > 3.5 (https://medium.freecodecamp.org/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f) 
+> (venv) pip install --upgrade pip
 
-Make sure you have installed 
-> python-pip 
 
-## lets get started with 'Hello World'!
+## Example
 
 * Checkout code
 
 
-       git clone https://github.com/srikanthjeeva/python-flask-getting-started.git    
-       cd python-flask-getting-started   
+       git clone https://github.com/darshanpyadav/Flask_MVC.git   
+       cd Flask_MVC  
 
 * Install dependencies, (use sudo if required)    
 
        pip install -r requirements.txt 
-           
-       or 
-          
-       pip install Flask Flask-SQLAlchemy Flask-Migrate flask-marshmallow marshmallow-sqlalchemy pymysql
 
 * start server    
 
-       python server.py  
+       python run.py  
+       
+       or
+       
+       python run.py -h     # to see all options
 
 * In browser go to,
 
-       http://localhost:5000 
-            
-        or 
-                    
-       http://localhost:5000/hello  
-
-        or for UI 
-
-       http://localhost:5000/ui/hello 
+       http://localhost:8000/?name=<your_name>
