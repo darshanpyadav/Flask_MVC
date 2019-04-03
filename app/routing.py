@@ -1,7 +1,7 @@
 # Register all the routes here
 def register_routes(app):
     # format
-    # add_route(app, '='<route_name>', 'Controller_name', 'url', 'methods = []')
+    # add_route(app, '<route_name>', 'url','Controller_name', 'action_function', 'methods = []')
 
     from .controllers.ActionController import ActionController
     add_route(app, 'index', '/', ActionController, 'index', methods=['GET'])
