@@ -110,7 +110,3 @@ pip-selfcheck.json
 .vs
 
 env/
-app/controllers/ActionController.py
-app/routing.py
-app/static/img/
-logs/
