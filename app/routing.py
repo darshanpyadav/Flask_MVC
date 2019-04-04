@@ -4,7 +4,7 @@ def register_routes(app):
     # add_route(app, '<route_name>', 'url','Controller_name', 'action_function', 'methods = []')
 
     from .controllers.ActionController import ActionController
-    add_route(app, 'index', '/', ActionController, 'index', methods=['GET'])
+    add_route(app, 'sandbox_mount_failed', '/SANDBOX_MOUNT_FAILED', ActionController, 'sandbox_mount_failed', methods=['GET'])
 
 
 def add_route(app, route_name, pattern, controller, action, **kwargs):

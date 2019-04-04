@@ -8,6 +8,7 @@ class Config(object):
 
     # Put any configurations here that are common across all environments
     BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+    SCRIPTS_DIR = os.path.abspath(os.path.dirname(__file__))
 
 
 class DevelopmentConfig(Config):

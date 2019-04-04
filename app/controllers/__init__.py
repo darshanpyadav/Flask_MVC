@@ -11,6 +11,7 @@ class Controller(View):
 
         self.__action_name = action_name
         self._app = app
+        self._script_dir = app.config["SCRIPTS_DIR"]
 
     def dispatch_request(self, *args, **kwargs):
         action = getattr(self, self.__action_name, None)
